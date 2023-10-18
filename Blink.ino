@@ -36,7 +36,7 @@ void setup() {
 void loop() {
   buttonState = digitalRead(7);
 
-  if (buttonState == HIGH) {
+  if (buttonState == HIGH) { //Conditional statement for when buttonstate is on //Jacob
     delay(34);
     digitalWrite(8, HIGH);  // turn the LED on (HIGH is the voltage level)
     delay(34);
@@ -55,5 +55,5 @@ void loop() {
     digitalWrite(2, LOW); 
   }
   // digitalWrite(8, HIGH);  // turn the LED on (HIGH is the voltage level)
-
+  // john comment
 }
