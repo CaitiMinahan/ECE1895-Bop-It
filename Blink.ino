@@ -55,5 +55,5 @@ void loop() {
     digitalWrite(2, LOW); 
   }
   // digitalWrite(8, HIGH);  // turn the LED on (HIGH is the voltage level)
-
+  // john comment
 }
